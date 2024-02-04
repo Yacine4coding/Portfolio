@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  content: ["./index.html", "./src/**/*.{ts,tsx}"],
   mode: "jit",
   theme: {
     extend: {
@@ -11,7 +11,8 @@ module.exports = {
         dimBlue: "#1B1B1E"
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        Caesar: ["Caesar Dressing", "system-ui"],
+        Space: ["Space Grotesk", "sans-serif"]
       },
     },
     screens: {
