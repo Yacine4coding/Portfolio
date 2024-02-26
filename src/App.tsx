@@ -1,9 +1,25 @@
+import { Contact } from "./Componants/Contact"
+import { Footer } from "./Componants/Footer"
+import { NavBare } from "./Componants/NavBare"
+import { Projects } from "./Componants/Projects"
+import { Services } from "./Componants/Services"
+import { Skills } from "./Componants/Skills"
+import { Header } from "./Componants/header"
+
 
 
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <NavBare />
+      <Header />
+      <Skills />
+      <Services />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
   )
 }
 
