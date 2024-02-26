@@ -4,7 +4,7 @@ import { NavBare } from "./Componants/NavBare"
 import { Projects } from "./Componants/Projects"
 import { Services } from "./Componants/Services"
 import { Skills } from "./Componants/Skills"
-import { Header } from "./Componants/header"
+import { Header } from "./Componants/Header/Header"
 
 
 
