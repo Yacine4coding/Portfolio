@@ -1,4 +1,4 @@
-import "../Style/Header.css"
+// import "../Style/Header.css"
 
 const BtnPart = () => {
   return (
