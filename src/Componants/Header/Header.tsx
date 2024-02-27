@@ -1,5 +1,6 @@
 
 import "../Style/Header.css"
+import BtnPart from "./BtnPart"
 
 
 export const Header = () => {
@@ -9,7 +10,7 @@ export const Header = () => {
         <div className="text-part">
           <h1>I Create 💻 top notch websites</h1>
         </div>
-        
+        <BtnPart />
       </div>
       <div className="picture-section">
           <img src="src\assets\YacinArw.svg" alt="" />

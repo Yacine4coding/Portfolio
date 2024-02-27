@@ -1,4 +1,10 @@
 
+:root{
+    --BoxShadowColor: rgb(79 79 79 / 75%);
+    --BoxShadow: 5px 5px 0 1px;
+}
+
+
 .header-container{
     display: flex;
     flex-direction: row;
@@ -26,8 +32,8 @@
 }
 
 .text-part > h1{
-    font-size: 70px;
-    
+    font-size: 84px;
+    padding-top: 2em;
 }
 
 .text-part{
@@ -58,7 +64,7 @@
 
 .btn-part > img {
     position: absolute;
-    top: 39.8em;
+    top: 49.8em;
     width: 50px;
     left: 17.5em;
     transform: rotate(5deg);
