@@ -143,13 +143,6 @@ h1{
     padding-top: 0.7em;
 }
 
-.name-Section > h1{
-    font-family: "Caesar Dressing", system-ui;
-    font-style: normal;
-    font-size: 33px;
-    padding-left: 0.5em;
-}
-
 
 .container {
     width: 307px;
@@ -160,7 +153,6 @@ h1{
     display: block;
     position: sticky;
     overflow: hidden;
-    font-family: 'Lato', sans-serif;
     font-size: 35px;
     line-height: 40px;
     color: #ecf0f1;
@@ -180,6 +172,7 @@ h1{
     float: left;
     margin: 0;
     color: #000000;
+    font-weight: 500;
   }
   
   .content__container__list {
@@ -199,6 +192,8 @@ h1{
   .content__container__list__item {
     line-height: 40px;
     margin: 0;
+    font-weight: 500;
+    width: 4em;
   }
   
   @keyframes opacity {
