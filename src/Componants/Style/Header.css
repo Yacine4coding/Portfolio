@@ -1,0 +1,71 @@
+
+:root{
+    --BoxShadowColor: rgb(79 79 79 / 75%);
+    --BoxShadow: 5px 5px 0 1px;
+}
+
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-section,
+.picture-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.picture-section{
+    align-items: center;
+}
+
+.text-section{
+    padding-left:6em;
+    align-items: flex-start;
+    
+    height: 100%;
+}
+
+.text-part > h1{
+    font-size: 5em;
+    padding-top: 2em;
+}
+
+.text-part{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7em;
+}
+
+
+.picture-section > img:nth-child(1){
+    position: relative;
+    top: 5.5em;
+    right: 10em;
+}
+
+.btn-part{
+    border: 5px solid black;
+    border-radius: 100px;
+    background-color: #BAE6FF;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+
+.btn-part > span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-part > img {
+    position: absolute;
+    top: 49.8em;
+    width: 50px;
+    left: 17.5em;
+    transform: rotate(5deg);
+}
