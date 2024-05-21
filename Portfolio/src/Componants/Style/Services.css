@@ -1,0 +1,20 @@
+
+.Services-container .header-text{
+    display: flex;
+    flex-direction: row;
+    padding: 4em;
+    h1{
+        font-size: 50px;
+        width: 50%;
+    }
+}
+
+
+.Srvices-Table-Container{
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+    gap: 20px;
+}

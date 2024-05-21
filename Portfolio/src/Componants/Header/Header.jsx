@@ -1,9 +1,10 @@
 
 import "../Style/Header.css"
 import BtnPart from "./BtnPart"
-
+import data from '../../data.json' 
 
 export const Header = () => {
+  const { infos } = data
   return (
     <div className="header-container">
       <div className="text-section">
@@ -14,7 +15,7 @@ export const Header = () => {
       </div>
       <div className="picture-section">
           <img src="src\assets\YacinArw.svg" alt="" />
-          <img src="src\assets\CardPicHeader.png" alt="" />
+          <img src={infos.Picture} alt="" />
       </div>
     </div>
   )

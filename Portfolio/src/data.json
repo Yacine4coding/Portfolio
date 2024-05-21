@@ -1,0 +1,76 @@
+{
+    "infos":{
+        "Name": "yacine",
+        "Family name": "Bensidahmed",
+        "Picture": "src/assets/CardPicHeader.png",
+        "Job": "Front-end Developer",
+        "Experience": 4, 
+        "Skills":[
+            {
+                "name": "Figma",
+                "status": "Beginner"
+            },
+            {
+                "name": "HTML",
+                "status": "Intermediate"
+            },
+            {
+                "name": "CSS",
+                "status": "Intermediate"
+            },
+            {
+                "name": "JavaScript",
+                "status": "Intermediate"
+            },
+            {
+                "name": "React.js/ts",
+                "status": "Intermediate"
+            }
+        ],
+        "otherSkills":[
+            {
+                "icon": "",
+                "name": "TypeScript",
+                "status": "Beginner"
+            },
+            {
+                "icon": "",
+                "name": "C language",
+                "status": "Beginner"
+            },
+            {
+                "icon": "",
+                "name": "JAVA",
+                "status": "Beginner"
+            },
+            {
+                "icon": "",
+                "name": "SQL",
+                "status": "Beginner"
+            }
+        ],
+        "Services": [
+            {
+              "icon": "../../assets/website-design 1.png",
+              "name": "Responsive Web Design",
+              "description": "Create responsive designs for a consistent experience across all devices 📱"
+            },
+            {
+              "icon": "../../assets/website-design 2.png",
+              "name": "Landing Pages",
+              "description": "Services we’re providing to help you show your work to the World 🌎"
+            },
+            {
+              "icon": "../../assets/website-design 2-2.png",
+              "name": "Components Creator",
+              "description": "Utilize front-end frameworks like React to build  interactive user interfaces."
+            },
+            {
+              "icon": "../../assets/website-design 1-1.png",
+              "name": "UI Designing",
+              "description": "Develop intuitive and aesthetically pleasing user interfaces 🖥"
+            }
+          ]       
+    }    
+}
+  

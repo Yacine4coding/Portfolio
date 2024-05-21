@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body{
     background-color: #FEFFF0;
     font-family: "Space Grotesk", sans-serif;

@@ -1,7 +1,14 @@
 
-import "./Style/Services.css"
+
+import "../Style/Services.css"
+import ServiseCard from "./ServiceCard";
+import data from '../../data.json'
+
+
 
 export const Services = () => {
+
+
   return (
     <div className="Services-container">
       <div className="header-text">
@@ -9,7 +16,14 @@ export const Services = () => {
         that derive 99% result</h1>
         <img src="src\assets\Frame 21.svg" alt="" />
       </div>
+
       <div className="Srvices-Table-Container">
+        {
+          data.infos.Services?.map((service, i) => (
+            <ServiseCard service={service} key={i} />
+          ))
+        }
+        {/* <ServiseCard service={Services[0]} key={1} /> */}
         
       </div>
     </div>
