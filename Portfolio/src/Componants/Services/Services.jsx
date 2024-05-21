@@ -23,7 +23,6 @@ export const Services = () => {
             <ServiseCard service={service} key={i} />
           ))
         }
-        {/* <ServiseCard service={Services[0]} key={1} /> */}
         
       </div>
     </div>

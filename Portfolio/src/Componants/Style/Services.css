@@ -11,10 +11,9 @@
 
 
 .Srvices-Table-Container{
-    padding: 2em;
+    padding: 2% 10%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    
-    gap: 20px;
+    gap: 5%;
 }

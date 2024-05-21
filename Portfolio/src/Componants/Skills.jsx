@@ -10,6 +10,7 @@ export const Skills = () => {
           <span title={skill.status} key={i} >{skill.name}</span>
         ))}
     </div>
+
   )
 }
 

@@ -1,9 +1,11 @@
 
 
 const ServiseCard = (  services  ) => {
+
     
 
   return (
+    
     <a href="#" className="group relative block h-64 sm:h-80 lg:h-96">
         <span className="absolute inset-0 border-2 border-dashed border-black"></span>
 
@@ -13,7 +15,7 @@ const ServiseCard = (  services  ) => {
             <div
             className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
             >
-                <img src={services.service.icon} className="size-10 sm:size-12" alt="" />
+                
             
                 <h2 className="mt-4 text-xl font-medium sm:text-2xl">{services.service.name}</h2>
             </div>
@@ -30,6 +32,8 @@ const ServiseCard = (  services  ) => {
                 <p className="mt-8 font-bold">Read more</p>
                 
             </div>
+
+            
         </div>
     </a>
   )
