@@ -6,7 +6,7 @@ const ServiseCard = (  services  ) => {
 
   return (
     
-    <a href="#" className="group relative block h-64 sm:h-80 lg:h-96">
+    <a href="#" id="tamp" className="group relative block h-64 sm:h-80 lg:h-56">
         <span className="absolute inset-0 border-2 border-dashed border-black"></span>
         {/* <img src={services.service.icon} alt="" /> */}
         <div
