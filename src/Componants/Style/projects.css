@@ -1,0 +1,18 @@
+
+.Project_container{
+    padding: 2em;
+    /* width: 100vw; */
+    text-align: center;
+    h1{
+        font-size: 80px;
+        font-weight: 500;
+    }
+
+    .project-cards{
+        padding: 2% 10%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10%;
+    }
+}

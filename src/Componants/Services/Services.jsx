@@ -7,7 +7,7 @@ import data from '../../data.json'
 
 
 export const Services = () => {
-
+  const { Services } = data.infos
 
   return (
     <div className="Services-container">
@@ -19,7 +19,7 @@ export const Services = () => {
 
       <div className="Srvices-Table-Container">
         {
-          data.infos.Services?.map((service, i) => (
+          Services.map((service, i) => (
             <ServiseCard service={service} key={i} />
           ))
         }
