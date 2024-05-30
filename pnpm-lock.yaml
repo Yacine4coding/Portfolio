@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      gh-pages:
-        specifier: ^6.1.1
-        version: 6.1.1
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -42,6 +39,9 @@ importers:
       eslint-plugin-react-refresh:
         specifier: ^0.4.6
         version: 0.4.7(eslint@8.57.0)
+      gh-pages:
+        specifier: ^6.1.1
+        version: 6.1.1
       postcss:
         specifier: ^8.4.38
         version: 8.4.38
