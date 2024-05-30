@@ -11,7 +11,7 @@ const BtnPart = () => {
         <span
           className="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold uppercase tracking-widest text-black group-active:text-opacity-75"
         >
-          Download
+          See Portfolio
         </span>
       </a>
 
