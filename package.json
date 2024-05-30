@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "pnpm run build",
+    "predeploy": "pnpm run dist",
     "deploy": "pnpm build && gh-pages -d dist"
   },
   "dependencies": {
