@@ -7,7 +7,7 @@ const ProjectCard = ( { project } ) => {
     <img
       alt=""
       src={picture}
-      className="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
+      className="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-56 lg:h-64"
     />
   
     <div className="mt-4 sm:flex sm:items-center sm:justify-center sm:gap-4">

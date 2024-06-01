@@ -11,6 +11,7 @@ import { Header } from "./Componants/Header/Header"
 
 
 const App = () => { 
+
   return (
     <>
       <NavBare />
