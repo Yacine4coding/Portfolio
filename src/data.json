@@ -2,7 +2,7 @@
     "infos":{
         "Name": "yacine",
         "Family name": "Bensidahmed",
-        "Picture": "src/assets/CardPicHeader.png",
+        "Picture": "../../public/CardPicHeader.png",
         "Job": "Front-end Developer",
         "Experience": 4, 
         "Skills":[
@@ -51,22 +51,22 @@
         ],
         "Services": [
             {
-              "icon": "../../assets/website-design 1.png",
+              "icon": "../../../public/website-design 1.png",
               "name": "Responsive Web Design",
               "description": "Create responsive designs for a consistent experience across all devices 📱"
             },
             {
-              "icon": "../../assets/website-design 2.png",
+              "icon": "../../../public/website-design 2.png",
               "name": "Landing Pages",
               "description": "Services we’re providing to help you show your work to the World 🌎"
             },
             {
-              "icon": "../../assets/website-design 2-2.png",
+              "icon": "../../../public/website-design 2-2.png",
               "name": "Components Creator",
               "description": "Utilize front-end frameworks like React to build  interactive user interfaces."
             },
             {
-              "icon": "../../assets/website-design 1-1.png",
+              "icon": "../../../public/website-design 1-1.png",
               "name": "UI Designing",
               "description": "Develop intuitive and aesthetically pleasing user interfaces 🖥"
             }
@@ -75,25 +75,25 @@
             {
                 "Name": "Components Creating",
                 "tech": "Design to website (html)  - deployment",
-                "picture": "src/assets/desktop-design (1).jpg",
+                "picture": "../../../public/desktop-design (1).jpg",
                 "link": "https://yacine4coding.github.io/NFT-componant/"
             },
             {
                 "Name": "Landing Pages",
                 "tech": "UI design -front-end development - deployment",
-                "picture": "src/assets/desktop-design 1.jpg",
+                "picture": "../../../public/desktop-design 1.jpg",
                 "link": "https://yacine4coding.github.io/Landing-page-C/"
             },
             {
                 "Name": "Components Creating",
                 "tech": "UI design - JSON Data development - deployment",
-                "picture": "src/assets/desktop-design.jpg",
+                "picture": "../../../public/desktop-design.jpg",
                 "link": "https://yacine4coding.github.io/chart/"
             },
             {
                 "Name": "Website Creating",
                 "tech": "UI design - interactive -adaptive - deployment",
-                "picture": "src/assets/desktop-design (2).jpg",
+                "picture": "../../../public/desktop-design (2).jpg",
                 "link": "https://yacine4coding.github.io/counter/"
             }
         ],

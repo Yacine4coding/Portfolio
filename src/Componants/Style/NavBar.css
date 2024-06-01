@@ -173,7 +173,6 @@ h1{
     display: inline;
     float: left;
     margin: 0;
-    color: #000000;
     font-weight: 500;
   }
   
@@ -188,7 +187,6 @@ h1{
     animation-name: change;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    color: black;
   }
   
   .content__container__list__item {

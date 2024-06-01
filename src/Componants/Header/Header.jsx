@@ -3,8 +3,12 @@ import "../Style/Header.css"
 import BtnPart from "./BtnPart"
 import data from '../../data.json' 
 
+import myimg from  '../../../public/CardPicHeader.png'
+import myimg2 from  '../../../public/YacinArw.svg'
+
+
 export const Header = () => {
-  const { infos } = data
+  const yacien = data.infos.Picture;
   return (
     <div className="header-container">
       <div className="text-section">
@@ -14,8 +18,8 @@ export const Header = () => {
         <BtnPart />
       </div>
       <div className="picture-section">
-          <img src="src\assets\YacinArw.svg" alt="" />
-          <img src={infos.Picture} alt="" />
+          <img src={myimg2} alt="" />
+          <img src={myimg} alt="" />
       </div>
     </div>
   )
