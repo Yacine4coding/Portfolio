@@ -39,7 +39,7 @@ export const Footer = () => {
                       href={link}
                       rel="noreferrer"
                       target="_blank"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-white transition hover:opacity-75"
                     >
                     <span class="sr-only">{Name}</span>
                     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" dangerouslySetInnerHTML={{ __html: icon }}>
