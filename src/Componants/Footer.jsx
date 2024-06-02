@@ -7,7 +7,7 @@ export const Footer = () => {
   
 
   return (
-    <div className="footer-container">
+    <div className="footer-container"  style={{ userSelect: 'none' }} >
       <footer className="bg-black text-white h-32 flex items-center justify-between">
         <McLogo color={'text-white'} />
         <ul className="mt-8 flex justify-center items-center gap-10 sm:mt-0 sm:justify-end px-10">

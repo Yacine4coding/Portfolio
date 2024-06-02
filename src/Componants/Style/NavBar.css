@@ -40,8 +40,8 @@
 .Section-Container::after{
   content: "";
   position: absolute;
-  width:8px;
-  height:8px;
+  width:14px;
+  height:14px;
   background-color: white; /* Adjust background color as desired */
   border: 3px solid rgb(0, 0, 0); /* Continue main border style */
   
@@ -55,9 +55,9 @@
 .Section-Container::after {
   top: -8px;
   right: -14px; /* Top-right corner */
-    -webkit-box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
-    -moz-box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
-    box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
+  -webkit-box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
+  -moz-box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
+  box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
 }
 
 /* the bottom */
@@ -66,14 +66,14 @@
 .clicks-Sections::before{
   content: "";
   position: absolute;
-  width:8px;
-  height:8px;
+  width:14px;
+  height:14px;
   background-color: white;
   border: 3px solid rgb(0, 0, 0);
 }
 
 .name-Section::before{
-  top: 80px;
+  top: 73px;
   left: -14px;
   -webkit-box-shadow: var(--BoxShadowSizeBottomLeft) var(--BoxShadowColor);
     -moz-box-shadow: var(--BoxShadowSizeBottomLeft) var(--BoxShadowColor);

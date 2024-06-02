@@ -10,7 +10,7 @@ export const Services = () => {
   const { Services } = data.infos
 
   return (
-    <div className="Services-container">
+    <div className="Services-container"  style={{ userSelect: 'none' }} >
       <div className="header-text">
         <h1>Services I’m providing
         that derive 99% result</h1>

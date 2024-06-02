@@ -6,7 +6,7 @@ import data from '../../data.json'
 export const Header = () => {
   const { infos } = data
   return (
-    <div className="header-container">
+    <div className="header-container"  style={{ userSelect: 'none' }} >
       <div className="text-section">
         <div className="text-part">
           <h1>I Create 💻 top notch websites</h1>
