@@ -12,11 +12,12 @@
 .Section-Container{
     display: flex;
     position: relative;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border: 3px solid #000000;
-    min-width: 51em;
+    min-width: 65%;
     max-height: 5em;
     background-color: white;
     -webkit-box-shadow: var(--BoxShadow) var(--BoxShadowColor);
@@ -32,7 +33,7 @@
     --BoxShadow: 5px 5px 0 1px;
     --BoxShadowSizeTopRight: 4px 6px 0px 1px;
     --BoxShadowSizeBottomRight: 4px 6px 0px 1px;
-    --BoxShadowSizeBottomLeft: 6px 9px 0px 0px;
+    --BoxShadowSizeBottomLeft: 6px 7px 0px 0px;
 }
 
 
@@ -42,28 +43,34 @@
   position: absolute;
   width:14px;
   height:14px;
-  background-color: white; /* Adjust background color as desired */
-  border: 3px solid rgb(0, 0, 0); /* Continue main border style */
-  
+  background-color: white;
+  border: 3px solid rgb(0, 0, 0);
 }
+
+/* top-right corner */
 
 .Section-Container::before{
-  top: -8px;
-  left: -14px; /* Top-left corner */
+  top: -10px;
+  right: -14px;
+  -webkit-box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
+    -moz-box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
+    box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
 }
 
+/* bottom-right corner  */
+
 .Section-Container::after {
-  top: -8px;
-  right: -14px; /* Top-right corner */
-  -webkit-box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
-  -moz-box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
-  box-shadow: var(--BoxShadowSizeTopRight) var(--BoxShadowColor);
+  top: 60px;
+  right: -14px;
+  -webkit-box-shadow: var(--BoxShadowSizeBottomRight) var(--BoxShadowColor);
+  -moz-box-shadow: var(--BoxShadowSizeBottomRight) var(--BoxShadowColor);
+  box-shadow: var(--BoxShadowSizeBottomRight) var(--BoxShadowColor);
 }
 
 /* the bottom */
 
 .name-Section::before,
-.clicks-Sections::before{
+.name-Section::after{
   content: "";
   position: absolute;
   width:14px;
@@ -72,20 +79,21 @@
   border: 3px solid rgb(0, 0, 0);
 }
 
-.name-Section::before{
-  top: 73px;
+/* top-left corner */
+
+.name-Section::after{
+  top: 60px;
   left: -14px;
   -webkit-box-shadow: var(--BoxShadowSizeBottomLeft) var(--BoxShadowColor);
     -moz-box-shadow: var(--BoxShadowSizeBottomLeft) var(--BoxShadowColor);
     box-shadow: var(--BoxShadowSizeBottomLeft) var(--BoxShadowColor);
 }
 
-.clicks-Sections::before {
-  top: 73px;
-  right: -14px;
-  -webkit-box-shadow: var(--BoxShadowSizeBottomRight) var(--BoxShadowColor);
-    -moz-box-shadow: var(--BoxShadowSizeBottomRight) var(--BoxShadowColor);
-    box-shadow: var(--BoxShadowSizeBottomRight) var(--BoxShadowColor);
+/* bottom-left corner */
+
+.name-Section::before {
+  top: -10px;
+  left: -14px;
 }
 
 
@@ -98,7 +106,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 5em;
+    height: 4rem;
 }
 
 .Section-Container > div > h1{
@@ -118,14 +126,12 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    border: 1px solid black;
+    font-size: 1.5rem;
+    border-left: 3px solid black;
     width: 100%;
     cursor: pointer;
 }
 
-.clicks-Sections > h1:first-child{
-    border-left: 2px solid black;
-}
 
 .clicks-Sections > h1:last-child{
     border-right: none;
@@ -155,7 +161,7 @@ h1{
     display: block;
     position: sticky;
     overflow: hidden;
-    font-size: 35px;
+    font-size: 2rem;
     line-height: 40px;
     color: #ecf0f1;
   }
@@ -164,7 +170,7 @@ h1{
     font-weight: 600;
     overflow: hidden;
     height: 40px;
-    padding: 0 40px;
+    padding: 0 1rem;
   }
   
 
@@ -178,7 +184,7 @@ h1{
   
   .content__container__list {
     margin-top: 0;
-    padding-left: 110px;
+    padding-left: 90px;
     text-align: left;
     list-style: none;
     -webkit-animation-name: change;
@@ -240,3 +246,81 @@ h1{
 }
 
 
+/* Hamburger dropdown */
+
+/* Dropdown.css */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+
+.dropdown-toggle:hover {
+  background-color: #daecff;
+  border-radius: 100%;
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  background-color: white;
+  box-shadow: var(--BoxShadow) var(--BoxShadowColor);
+  padding: 12px 0;
+  margin: 0;
+  list-style: none;
+  width: 6rem;
+  z-index: 1;
+  top: 4rem;
+  right: 1%;
+}
+
+.dropdown-menu li {
+  padding: 8px 16px;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f1f1f1;
+}
+
+
+@media (max-width: 1316px) {
+  .Section-Container{
+    min-width: 75%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .Section-Container{
+    min-width: 85%;
+  }
+}
+@media (max-width: 1022px){
+  .Section-Container{
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 730px) {
+  .Section-Container{
+    min-width: 90%;
+  }
+}
+
+@media (max-width: 392px) {
+  .content{
+    font-size: 1.7rem;
+  }
+  .content__container__list{
+    padding-left: 70px;
+  }
+}

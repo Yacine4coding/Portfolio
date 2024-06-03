@@ -1,6 +1,6 @@
 
 import { Footer } from "./Componants/Footer"
-import { NavBare } from "./Componants/NavBare"
+import { NavBare } from "./Componants/NaveBar/NavBare"
 import { Projects } from "./Componants/projects/Projects"
 import { Services } from "./Componants/Services/Services"
 import { Skills } from "./Componants/Skills"

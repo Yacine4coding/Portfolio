@@ -9,16 +9,16 @@ export const McLogo = ( { color } ) => {
             <div className="container">
             <div className="content">
                 <div className="content__container ">
-                <p className={`${text} ${color}`} >
-                    Hello
-                </p>
-                
-                <ul className={`${list} ${color}`}>
-                    <li className="content__container__list__item">world !</li>
-                    <li className="content__container__list__item">coder !</li>
-                    <li className="content__container__list__item">users !</li>
-                    <li className="content__container__list__item">Yacine </li>
-                </ul>
+                    <p className={`${text} ${color}`} >
+                        Hello
+                    </p>
+                    
+                    <ul className={`${list} ${color}`}>
+                        <li className="content__container__list__item">world !</li>
+                        <li className="content__container__list__item">coder !</li>
+                        <li className="content__container__list__item">users !</li>
+                        <li className="content__container__list__item">Yacine </li>
+                    </ul>
                 </div>
             </div>
             </div>
