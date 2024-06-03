@@ -10,7 +10,6 @@ const ServiseCard = ( { service } ) => {
         <div
             className="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
         >
-            {/* <img class="size-10 sm:size-12" src={icon} alt="" /> */}
             <div
             className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
             >

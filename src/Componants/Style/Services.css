@@ -2,18 +2,43 @@
 .Services-container .header-text{
     display: flex;
     flex-direction: row;
-    padding: 4em;
+    padding: 1em 0;
     h1{
-        font-size: 50px;
+        font-size: 3vw;
         width: 50%;
     }
 }
 
+.Services-container{
+    padding: 3em 10% ;
+}
+
 
 .Srvices-Table-Container{
-    padding: 2% 10%;
+    padding: 2% 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 5%;
+}
+
+
+@media (max-width:800px) {
+    .Services-container{
+        padding: 2em 10%;
+    }
+    .header-text h1 {
+        font-size: 4vw;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:430px) {
+    .Srvices-Table-Container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5%;
+        height: 100vh;
+    }
 }

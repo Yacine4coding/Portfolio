@@ -14,7 +14,7 @@ export const Services = () => {
       <div className="header-text">
         <h1>Services I’m providing
         that derive 99% result</h1>
-        <img src="src\assets\Frame 21.svg" alt="" />
+        <img className="w-12 2xl:w-20 pl-5 lg:w-16" src="./assets/Frame 21.svg" alt="" />
       </div>
 
       <div className="Srvices-Table-Container">
