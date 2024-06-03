@@ -19,10 +19,6 @@ export const NavBare = () => {
     };
   }, []);
 
-  
-
-  const wideScreen = ``
-
   return (
     <div className="Nav-Container"  style={{ userSelect: 'none' }} >
       <div className="Section-Container">
