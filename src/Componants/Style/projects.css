@@ -2,10 +2,9 @@
 .Project_container{
     padding: 2em;
     margin-bottom: 5em;
-    /* width: 100vw; */
     text-align: center;
     h1{
-        font-size: 80px;
+        font-size: 6vw;
         font-weight: 500;
     }
 
@@ -15,5 +14,27 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 10%;
+    }
+}
+
+
+@media (max-width:800px){
+
+    .Project_container .project-cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Project_container .project-cards > a{
+        padding-top: 2em;
+    }
+
+}
+
+@media (max-width:430px){
+    .Project_container h1{
+        font-size: 8vw;
+        font-weight: 500;
     }
 }
