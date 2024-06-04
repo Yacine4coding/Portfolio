@@ -3,7 +3,12 @@
 const BtnPart = () => {
   return (
     <>
-      <a className="group relative inline-block focus:outline-none focus:ring" href="#">
+      <button 
+        onClick={() => {
+          const Projects = document.getElementById('Projects');
+          Projects?.scrollIntoView({ behavior:'smooth' });
+        }} 
+        className="group relative inline-block focus:outline-none focus:ring">
         <span
           className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-yellow-300 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"
         ></span>
@@ -13,7 +18,7 @@ const BtnPart = () => {
         >
           See Portfolio
         </span>
-      </a>
+      </button>
 
     </>
   )
