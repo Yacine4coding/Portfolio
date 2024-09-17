@@ -77,25 +77,25 @@
                 "Name": "Components Creating",
                 "tech": "Design to website (html)  - deployment",
                 "picture": "./assets/desktop-design (1).jpg",
-                "link": "https://yacine4coding.github.io/NFT-componant/"
+                "link": "https://yacine4coding.github.io/NFT-preview-card-component/"
             },
             {
                 "Name": "Landing Pages",
                 "tech": "UI design -front-end development - deployment",
                 "picture": "./assets/desktop-design 1.jpg",
-                "link": "https://yacine4coding.github.io/Landing-page-C/"
+                "link": "https://yacine4coding.github.io/Clipboard-landing-page/"
             },
             {
                 "Name": "Components Creating",
                 "tech": "UI design - JSON Data development - deployment",
                 "picture": "./assets/desktop-design.jpg",
-                "link": "https://yacine4coding.github.io/chart/"
+                "link": "https://yacine4coding.github.io/Expenses-chart-component/"
             },
             {
                 "Name": "Website Creating",
                 "tech": "UI design - interactive -adaptive - deployment",
                 "picture": "./assets/desktop-design (2).jpg",
-                "link": "https://yacine4coding.github.io/counter/"
+                "link": "https://yacine4coding.github.io/Launch-countdown-timer/"
             }
         ],
         "footer": [
